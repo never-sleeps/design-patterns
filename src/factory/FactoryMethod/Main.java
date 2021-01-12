@@ -1,11 +1,16 @@
 package factory.FactoryMethod;
 
+import factory.FactoryMethod.pizza.Pizza;
+import factory.FactoryMethod.store.ChicagoPizzaStore;
+import factory.FactoryMethod.store.NYPizzaStore;
+import factory.FactoryMethod.store.PizzaStore;
+
 public class Main {
     public static void main(String[] args) {
         PizzaStore nyPizzaStore = new NYPizzaStore();           // Строим пиццерию в Нью-Йорке
         PizzaStore chicagoPizzaStore = new ChicagoPizzaStore(); // Строим пиццерию в Чикаго
 
-        // пиццерии построена, теперь можно принять заказ:
+        // пиццерии построены, теперь можно принять заказ:
         /*
          * Обе пиццы готовятся со всеми добавками, выпекаются и нарезаются.
          * Суперклассу не нужно знать подробности - субкласс решает все проблемы, просто создавая правильный экземпляр

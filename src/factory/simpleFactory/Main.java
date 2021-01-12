@@ -1,5 +1,7 @@
 package factory.simpleFactory;
 
+import factory.simpleFactory.pizza.Pizza;
+
 public class Main {
     public static void main(String[] args) {
         // Строим пиццерию

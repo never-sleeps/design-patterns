@@ -1,10 +1,12 @@
-package factory.FactoryMethod;
+package factory.FactoryMethod.store;
+
+import factory.FactoryMethod.pizza.Pizza;
 
 public abstract class PizzaStore {
     /**
      * Субклассы PizzaStore создают экземпляры объектов за нас при вызове orderPizza()
-     * @param type
-     * @return
+     * @param type наименование пиццы
+     * @return приготовленная и порезанная пицца Pizza
      */
     public Pizza orderPizza(String type) {
         Pizza pizza;

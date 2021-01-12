@@ -1,4 +1,4 @@
-package factory.FactoryMethod;
+package factory.FactoryMethod.pizza;
 
 public class ChicagoStylePepperoniPizza extends Pizza {
     public ChicagoStylePepperoniPizza() {

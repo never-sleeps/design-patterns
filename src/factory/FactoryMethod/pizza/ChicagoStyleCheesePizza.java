@@ -1,4 +1,4 @@
-package factory.FactoryMethod;
+package factory.FactoryMethod.pizza;
 
 public class ChicagoStyleCheesePizza extends Pizza {
     public ChicagoStyleCheesePizza() {
@@ -11,7 +11,7 @@ public class ChicagoStyleCheesePizza extends Pizza {
 
     // Чикагская пицца переопределяет метод cut: она нарезается квадратами, а не клиньями
     @Override
-    void cut() {
+    public void cut() {
         System.out.println("Cutting the pizza into square slices...");
     }
 }

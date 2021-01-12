@@ -1,4 +1,4 @@
-package factory.simpleFactory;
+package factory.simpleFactory.pizza;
 
 public class CheesePizza extends Pizza {
     public CheesePizza() {
