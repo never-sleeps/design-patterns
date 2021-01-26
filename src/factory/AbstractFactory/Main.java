@@ -25,6 +25,5 @@ public class Main {
         // Заказываем нью-йоркскую пиццу-пеперони
         Pizza pizza3 = chicagoPizzaStore.orderPizza("pepperoni");
         System.out.println("I ordered: " + pizza3.toString());
-
     }
 }
