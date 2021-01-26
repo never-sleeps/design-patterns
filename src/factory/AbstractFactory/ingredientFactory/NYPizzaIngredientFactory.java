@@ -9,8 +9,8 @@ import factory.AbstractFactory.ingredients.impl.veggies.Garlic;
 import factory.AbstractFactory.ingredients.impl.veggies.Onion;
 
 /**
- * Нью-Йоркская фабрика ингредиентов реализет общий интерфейс всех фабрик ингредиентов.
- * Для аждого ингредиента в семействе создается его версия для Нью-Йорка.
+ * Нью-Йоркская фабрика ингредиентов реализует общий интерфейс всех фабрик ингредиентов.
+ * Для каждого ингредиента в семействе создается его версия для Нью-Йорка.
  */
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
     @Override
@@ -30,8 +30,7 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 
     @Override
     public Veggies[] createVeggies() {
-        Veggies veggies[] = { new Garlic(), new Onion() };
-        return veggies;
+        return new Veggies[]{ new Garlic(), new Onion() };
     }
 
     @Override

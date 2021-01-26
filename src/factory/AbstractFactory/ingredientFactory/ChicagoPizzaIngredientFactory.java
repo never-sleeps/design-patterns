@@ -9,9 +9,7 @@ import factory.AbstractFactory.ingredients.impl.veggies.BlackOlives;
 
 public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory{
     @Override
-    public Dough createDough() {
-        return new ThickCrustDough();
-    }
+    public Dough createDough() { return new ThickCrustDough(); }
 
     @Override
     public Sauce createSauce() {
@@ -25,7 +23,7 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory{
 
     @Override
     public Veggies[] createVeggies() {
-        Veggies veggies[] = {new BlackOlives() };
+        Veggies veggies[] = { new BlackOlives() };
         return veggies;
     }
 
