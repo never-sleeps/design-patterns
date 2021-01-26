@@ -1,5 +1,8 @@
 package observer.manual;
 
+import observer.manual.publisher.WeatherData;
+import observer.manual.subscribers.CurrentConditionsDisplay;
+
 public class Main {
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();

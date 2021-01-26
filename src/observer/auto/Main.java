@@ -1,5 +1,8 @@
 package observer.auto;
 
+import observer.auto.publisher.WeatherData;
+import observer.auto.subscribers.CurrentConditionsDisplay;
+
 public class Main {
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();

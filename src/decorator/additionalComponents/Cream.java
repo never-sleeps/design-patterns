@@ -1,4 +1,6 @@
-package decorator;
+package decorator.additionalComponents;
+
+import decorator.baseComponents.Beverage;
 
 public class Cream extends CondimentDecorator {
     Beverage beverage;

@@ -1,4 +1,6 @@
-package decorator;
+package decorator.additionalComponents;
+
+import decorator.baseComponents.Beverage;
 
 /**
  * Объекты должны быть взаимозаменяемы друг с другом, поэтому расширяем класс Beverage

@@ -1,4 +1,6 @@
-package strategy;
+package strategy.animal;
+
+import strategy.behavior.RunBehavior;
 
 public class Tiger extends Animal{
     public Tiger() {

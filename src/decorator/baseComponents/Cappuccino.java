@@ -1,4 +1,4 @@
-package decorator;
+package decorator.baseComponents;
 
 public class Cappuccino extends Beverage {
     public Cappuccino() {

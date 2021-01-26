@@ -4,25 +4,25 @@
 
 Пример простой фабрики:
 
-class UserFactory {
-
-    public static function create($type) {
+    class UserFactory {
     
-        switch ($type) {
+        public static function create($type) {
         
-            case 'user': return new User();
+            switch ($type) {
             
-            case 'customer': return new Customer();
-            
-            case 'admin': return new Admin();
-            
-            default:
-            
-                throw new Exception('Wrong user type passed.');
+                case 'user': return new User();
                 
+                case 'customer': return new Customer();
+                
+                case 'admin': return new Admin();
+                
+                default:
+                
+                    throw new Exception('Wrong user type passed.');
+                    
+            }
         }
+        
     }
-    
-}
 
 Простая фабрика находится в шаге от того, чтобы стать Фабричным методом.

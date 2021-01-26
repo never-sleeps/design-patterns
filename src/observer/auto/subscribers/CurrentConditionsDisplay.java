@@ -1,4 +1,7 @@
-package observer.auto;
+package observer.auto.subscribers;
+
+import observer.auto.DisplayElement;
+import observer.auto.publisher.WeatherData;
 
 import java.util.Observable;
 import java.util.Observer;
