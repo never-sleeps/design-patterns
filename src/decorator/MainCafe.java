@@ -1,5 +1,11 @@
 package decorator;
 
+import decorator.additionalComponents.Chocolate;
+import decorator.additionalComponents.Cream;
+import decorator.baseComponents.Beverage;
+import decorator.baseComponents.Cappuccino;
+import decorator.baseComponents.Espresso;
+
 public class MainCafe {
 
     public static void main(String[] args) {

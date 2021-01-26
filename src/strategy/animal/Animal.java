@@ -1,4 +1,6 @@
-package strategy;
+package strategy.animal;
+
+import strategy.behavior.MoveBehavior;
 
 public abstract class Animal {
     MoveBehavior moveBehavior;

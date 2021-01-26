@@ -1,4 +1,4 @@
-package observer.manual;
+package observer.manual.subscribers;
 
 /**
  * Интерфейс Observer реализуется всеми наблюдателями.

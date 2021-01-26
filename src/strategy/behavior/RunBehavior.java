@@ -1,4 +1,4 @@
-package strategy;
+package strategy.behavior;
 
 public class RunBehavior implements MoveBehavior{
     @Override

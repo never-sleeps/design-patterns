@@ -1,4 +1,6 @@
-package observer.manual;
+package observer.manual.publisher;
+
+import observer.manual.subscribers.Observer;
 
 import java.util.ArrayList;
 import java.util.List;

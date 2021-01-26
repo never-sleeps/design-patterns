@@ -1,4 +1,6 @@
-package strategy;
+package strategy.animal;
+
+import strategy.behavior.SwimBehavior;
 
 public class Fish extends Animal{
 
